@@ -1,1 +1,428 @@
-[{ "name": "D-MERC SERVICES", "address": "375 BALSAM ST, LAKEWOOD, CO 80226"}  ,{ "name": "     D. B. MCKENNA &amp; CO., INC.", "address": "207 WEST MAIN STREET, BENNINGTON, VT     05201-2108  "}  ,{ "name": "     D.A. DAVIDSON &amp; CO.", "address": "8 THIRD STREET NORTH, GREAT FALLS, MT     59401-3104", "mailing_address":" P.O. BOX 5015, GREAT FALLS, MT 59403-5015  "}  ,{ "name": "     D.E. SHAW SECURITIES, L.L.C.", "address": "1166 AVENUE OF THE AMERICAS, 9TH FLOOR,     NEW YORK, NY 10036  "}  ,{ "name": "     D.H. HILL SECURITIES, LLLP", "address": "1543 GREEN OAK PLACE, SUITE 100, KINGWOOD,     TX 77339  "}  ,{ "name": "     D.M. KELLY &amp; COMPANY", "address": "3900 INGERSOLL AVENUE, SUITE 300, DES MOINES,     IA 50312  "}  ,{ "name": "     D/B/A PALAZZO", "address": "145 WEST 57TH STREET, 17TH FLOOR, NEW YORK, NY 10019", "address": "Mailing     Address: 145 WEST 57TH STREET, 17TH FLOOR, NEW YORK, NY 10010  "}  ,{ "name": "D12 CAPITAL MARKETS INC.", "address": "5 REVERE PLACE, TORONTO, M8Z 2Z1 CANADA"}  ,{ "name": "DABBAH SECURITIES CORP.", "address": "167 EAST 63RD STREET, NEW YORK, NY 10065"}  ,{ "name": "     DAI SECURITIES, LLC", "address": "2800 CENTURY PARKWAY NE, SUITE 650, ATLANTA, GA     30345  "}  ,{ "name": "     DAIWA CAPITAL MARKETS AMERICA INC.", "address": "FINANCIAL SQUARE, 32 OLD SLIP, NEW     YORK, NY 10005-3538  "}  ,{ "name": "DALMORE GROUP LLC", "address": "525 GREEN PLACE, WOODMERE, NY 11598"}  ,{ "name": "     DALZELL TRADING, LLC", "address": "250 E. BEAVER AVE., SUITE 772, STATE COLLEGE, PA     16801  "}  ,{ "name": "     DAM CAPITAL (USA) INC.", "address": "42 BROADWAY, SUITE 12-129, NEW YORK, NY 10004  "}  ,{ "name": "     DANSKE MARKETS INC.", "address": "575 FIFTH AVENUE, 33RD FLOOR, NEW YORK, NY 10017  "}  ,{ "name": "     DARWOOD ASSOCIATES INCORPORATED", "address": "284 U.S. HIGHWAY 206, UNIT D3,     HILLSBOROUGH, NJ 08844  "}  ,{ "name": "     DASH FINANCIAL TECHNOLOGIES LLC", "address": "200 S.WACKER DRIVE, SUITE 2450,     CHICAGO, IL 60606  "}  ,{ "name": "     DASH PRIME LLC", "address": "200 SOUTH WACKER DRIVE, SUITE 2450, CHICAGO, IL 60606  "}  ,{ "name": "     DASTA FINANCIAL, LLC", "address": "101 GREENWICH STREET, SECOND FLOOR, SUITE 402, NEW     YORK, NY 10006", "mailing_address":" 101 GREENWICH, SECOND FLOOR, SUITE 402,     NEW YORK, NY 10006  "}  ,{ "name": "     DAVENPORT &amp; COMPANY LLC", "address": "ONE JAMES CENTER, 901 E. CARY STREET,     RICHMOND, VA 23219", "mailing_address":" P.O. BOX 85678, RICHMOND, VA     23285-5678  "}  ,{ "name": "     DAVID LERNER ASSOCIATES, INC.", "address": "477 JERICHO TPKE, P.O.BOX 9006, SYOSSET,     NY 11791-9006  "}  ,{ "name": "     DAVINCI CAPITAL MANAGEMENT, INC.", "address": "801 CAMBRIDGE ST., CAMBRIDGE, MA     02141", "mailing_address":" 801 CAMBRIDGE ST., CAMBRIDGE, MA 02141  "}  ,{ "name": "     DAVIS DISTRIBUTORS, LLC", "address": "3600 E. HEMISPHERE LOOP, TUCSON, AZ 85706", "address": "Mailing     Address: 2949 EAST ELVIRA ROAD, SUITE 101, TUCSON, AZ 85756  "}  ,{ "name": "     DAVIS SECURITIES LLC", "address": "31 WEST 34TH STREET, 8TH FLOOR, SUITE 8067, NEW     YORK, NY 10001  "}  ,{ "name": "DAVY SECURITIES", "address": "DAVY HOUSE, 49 DAWSON STREET, DUBLIN 2, D2 IRELAND"}  ,{ "name": "     DAWSON JAMES SECURITIES, INC.", "address": "101 NORTH FEDERAL HIGHWAY, SUITE 600,     BOCA RATON, FL 33432  "}  ,{ "name": "     DBS VICKERS SECURITIES (USA) INC.", "address": "777 THIRD AVE, SUITE 1701, NEW YORK,     NY 10017", "mailing_address":" 777 THIRD AVENUE, SUITE 1701, NEW YORK, NY     10017  "}  ,{ "name": "DC ADVISORY", "address": "605 THIRD AVENUE, 11TH FLOOR, NEW YORK, NY 10158"}  ,{ "name": "DCF, LLC", "address": "629 MARKET STREET, SUITE 120, CHATTANOOGA, TN 37402"}  ,{ "name": "     DCM BROKERS, LLC", "address": "566 W. ADAMS, SUITE 300, CHICAGO, IL 60661", "address": "Mailing     Address: 555 W. JACKSON, SUITE 600, CHICAGO, IL 60661  "}  ,{ "name": "     DCMB SECURITIES LLC", "address": "1700 WEST LOOP SOUTH, SUITE 450, HOUSTON, TX 77027  "}  ,{ "name": "     DEALER SOLUTIONS NORTH AMERICA LLC", "address": "42 BROADWAY, SUITE 12-129, NEW YORK,     NY 10004  "}  ,{ "name": "     DEALERWEB INC.", "address": "185 HUDSON STREET, HARBORSIDE 5, SUITE 2200, JERSEY     CITY, NJ 07311  "}  ,{ "name": "     DEALMAKER SECURITIES", "address": "4000 EAGLE POINT CORPORATE DRIVE, SUITE 950,     BIRMINGHAM, AL 35242", "mailing_address":" 4000 EAGLE POINT CORPORATE DRIVE,     SUITE 124, BIRMINGHAM, AL 35242  "}  ,{ "name": "     DECHEQUE SECURITIES LLC", "address": "353 W PIERPONT AVE, SALT LAKE CITY, UT 84101  "}  ,{ "name": "     DECKER &amp; CO, LLC", "address": "700 EL CAMINO REAL, SUITE 120, MENLO PARK, CA     94025  "}  ,{ "name": "     DEER ISLE CAPITAL, LLC", "address": "33 FLYING POINT ROAD, SUITE 131, SOUTHAMPTON, NY     11968  "}  ,{ "name": "     DELAWARE DISTRIBUTORS, L.P.", "address": "100 INDEPENDENCE, 610 MARKET STREET,     PHILADELPHIA, PA 19106-2354  "}  ,{ "name": "     DELOITTE CORPORATE FINANCE LLC", "address": "111 S. WACKER DRIVE, CHICAGO, IL     60606-4301  "}  ,{ "name": "     DELPHOS MMJ L.P.", "address": "1270 AVENUE OF THE AMERICAS, 7TH FLOOR, NEW YORK, NY     10020  "}  ,{ "name": "     DELPHX SERVICES CORPORATION", "address": "265 DAVIDSON AVENUE, SUITE 210, SOMERSET,     NJ 08873  "}  ,{ "name": "     DEMATTEO RESEARCH LLC", "address": "70 EAST 55TH STREET, 10TH FLOOR, NEW YORK, NY     10022  "}  ,{ "name": "     DEMETER ADVISORY GROUP, LLC", "address": "1508 BAY ROAD, #511, MIAMI BEACH, FL 33139  "}  ,{ "name": "     DEMPSEY LORD SMITH, LLC", "address": "901 N BROAD STREET, SUITE 400, ROME, GA 30161  "}  ,{ "name": "     DENNING &amp; COMPANY LLC", "address": "150 CALIFORNIA STREET, SUITE 650, SAN     FRANCISCO, CA 94111  "}  ,{ "name": "     DESJARDINS SECURITIES INTERNATIONAL INC.", "address": "1170 PEEL STREET, SUITE 300,     MONTREAL, QUEBEC, H3B 0A9 CANADA  "}  ,{ "name": "     DESTRA CAPITAL INVESTMENTS LLC", "address": "443 N. WILLSON AVE., BOZEMAN, MT 59715  "}  ,{ "name": "     DEUTSCHE BANK SECURITIES INC.", "address": "1 COLUMBUS CIRCLE, NEW YORK, NY 10019  "}  ,{ "name": "     DEVELOPMENT CORPORATION FOR ISRAEL", "address": "P.O. BOX 5263, NEW YORK, NY 10150  "}  ,{ "name": "     DFA SECURITIES LLC", "address": "6300 BEE CAVE ROAD, BUILDING ONE, AUSTIN, TX 78746  "}  ,{ "name": "     DFPG INVESTMENTS, LLC", "address": "9017 S RIVERSIDE DRIVE, SUITE 210, SANDY, UT     84070  "}  ,{ "name": "     DIGITAL BROKERAGE SERVICES LLC", "address": "499 WASHINGTON BLVD, JERSEY CITY, NJ     07310", "mailing_address":" TWO DESTINY WAY, MAIL ZONE WG3D, WESTLAKE, TX     76262  "}  ,{ "name": "     DIGITAL CAPITAL MARKETS LLC", "address": "10211 FLEMING AVENUE, BETHESDA, MD 20814  "}  ,{ "name": "     DIGITAL OFFERING LLC", "address": "1461 GLENNEYRE STREET, SUITE D, LAGUNA BEACH, CA     92651  "}  ,{ "name": "DINAN CAPITAL ADVISORS", "address": "307 N GATEWAY BLVD, PHOENIX, AZ 85008-6589"}  ,{ "name": "     DINOSAUR FINANCIAL GROUP, L.L.C", "address": "33 WHITEHALL ST, 1102, NEW YORK, NY     10004  "}  ,{ "name": "     DIRECT REALTY SECURITIES, INC.", "address": "5743 CORSA AVENUE, SUITE 215, WESTLAKE     VILLAGE, CA 91362  "}  ,{ "name": "     DIRECTED SERVICES LLC", "address": "SUITE 200, 1475 DUNWOODY DRIVE, WEST CHESTER, PA     19380", "mailing_address":" SUITE 1350, 699 WALNUT STREET, DES MOINES, IA     50309  "}  ,{ "name": "     DIRECTTRADE SECURITIES, LLC", "address": "7708 84TH AVENUE CT NW, GIG HARBOR, WA     98335  "}  ,{ "name": "     DISRUPTIVE SECURITIES", "address": "11150 SANTA MONICA BLVD., SUITE 1680, LOS     ANGELES, CA 90025  "}  ,{ "name": "DIVERSIFIED RESOURCES, LLC", "address": "70 JEFFERSON BLVD., WARWICK, RI 02888"}  ,{ "name": "     DIVERSIFIED SECURITIES, INCORPORATED", "address": "610 PACIFIC COAST HWY-100, SEAL     BEACH, CA 90740  "}  ,{ "name": "     DLCC PRIME", "address": "111 TOWN SQUARE PLACE, SUITE 1203, JERSEY CITY, NJ 07310  "}  ,{ "name": "     DMG SECURITIES, INC.", "address": "746 WALKER ROAD, SUITE 10, GREAT FALLS, VA     22066-2643  "}  ,{ "name": "     DMK ADVISOR GROUP, INC.", "address": "17961 HUNTING BOW CIRCLE, SUITE 102, LUTZ, FL     33558  "}  ,{ "name": "     DNB MARKETS, INC.", "address": "30 HUDSON YARDS, 81ST FLOOR, 500 WEST 33RD STREET,     NEW YORK, NY 10001  "}  ,{ "name": "     DOEREN MAYHEW CAPITAL ADVISORS, LLC", "address": "2600 NORTH LOOP WEST, SUITE 600,     HOUSTON, TX 77092  "}  ,{ "name": "     DOFT &amp; CO., INC.", "address": "55 EAST 59TH STREET, 12TH FLOOR, NEW YORK, NY     10022  "}  ,{ "name": "     DOMINARI SECURITIES LLC", "address": "725 FIFTH AVENUE, 23RD FL., NEW YORK, NY 10022  "}  ,{ "name": "     DOMINION INVESTOR SERVICES, INC.", "address": "1002 MARBLE HEIGHTS DRIVE, SUITE 101,     MARBLE FALLS, TX 78654  "}  ,{ "name": "     DOMINION PARTNERS, L.C.", "address": "4801COX ROAD, STE 104, GLEN ALLEN, VA 23060  "}  ,{ "name": "     DONALD CAPITAL LLC", "address": "420 LEXINGTON AVE, 14TH FLOOR, SUITE # 1402, NEW     YORK, NY 10170  "}  ,{ "name": "     DONNELLY PENMAN &amp; PARTNERS", "address": "20902 MACK AVENUE, SUITE 200, GROSSE     POINTE WOODS, MI 48236  "}  ,{ "name": "     DORN &amp; CO., INC.", "address": "216 EAST WASHINGTON AVENUE, FERGUS FALLS, MN     56537-2812  "}  ,{ "name": "     DORSET PEAK SECURITIES LLC", "address": "416 WEST 13TH STREET, NEW YORK, NY 10014  "}  ,{ "name": "     DOUGALL &amp; ASSOCIATES INC.", "address": "445 EAST NORTH WATER STREET, APT 2203,     CHICAGO, IL 60611  "}  ,{ "name": "     DOUGLAS SCOTT SECURITIES, INC.", "address": "1700 ALMA DR, SUITE 110A, PLANO, TX     75075  "}  ,{ "name": "     DOWLING &amp; PARTNERS SECURITIES LLC", "address": "190 FARMINGTON AVENUE,     FARMINGTON, CT 06032  "}  ,{ "name": "     DRAGONFLY CAPITAL PARTNERS, LLC", "address": "694 PAWLEY RD, SUITE 101, MT PLEASANT,     SC 29464", "mailing_address":" 694 PAWLEY RD, SUITE 101, MT PLEASANT, SC     29464  "}  ,{ "name": "     DRAKE STAR SECURITIES LLC", "address": "950 THIRD AVENUE, 20TH FLOOR, NEW YORK, NY     10022  "}  ,{ "name": "     DRESNER INVESTMENT SERVICES, INC.", "address": "10 S. LASALLE SUITE 2170, CHICAGO, IL     60603  "}  ,{ "name": "     DREXEL HAMILTON, LLC", "address": "110 EAST 42ND STREET, SUITE 1502, NEW YORK, NY     10017  "}  ,{ "name": "DRIVELOYALTY LLC", "address": "28 LIBERTY STREET, 50TH FLOOR, NEW YORK, NY 10005"}  ,{ "name": "     DRIVEWEALTH INSTITUTIONAL LLC", "address": "11 WALL STREET, NEW YORK, NY 10005", "address": "Mailing     Address: 28 LIBERTY STREET, 50TH FLOOR, NEW YORK, NY 10005  "}  ,{ "name": "DRIVEWEALTH, LLC", "address": "28 LIBERTY STREET, 50TH FLOOR, NEW YORK, NY 10005"}  ,{ "name": "     DRUM CAPITAL CORP", "address": "4139 VIA MARINA STE 801, MARINA DEL REY, CA 90292  "}  ,{ "name": "     DRW EXECUTION SERVICES, LLC", "address": "540 W. MADISON ST., SUITE 2500, CHICAGO, IL     60661  "}  ,{ "name": "     DRW SECURITIES, L.L.C.", "address": "540 WEST MADISON STREET, SUITE 2500, CHICAGO, IL     60661  "}  ,{ "name": "     DSIL INVESTMENT SERVICES LLC", "address": "180 MAIDEN LANE, SUITE 1302, NEW YORK, NY     10038-4925  "}  ,{ "name": "     DSP SECURITIES, LLC", "address": "161 WASHINGTON STREET, SUITE 580, CONSHOHOCKEN, PA     19428  "}  ,{ "name": "     DUCERA SECURITIES LLC", "address": "11 TIMES SQUARE, FLOOR 36, NEW YORK, NY 10036  "}  ,{ "name": "     DUNHAM &amp; ASSOCIATES INVESTMENT COUNSEL, INC.", "address": "6256 GREENWICH DRIVE,     SUITE 550, SAN DIEGO, CA 92122", "mailing_address":" P.O. BOX 910309, SAN     DIEGO, CA 92191  "}  ,{ "name": "     DUNN RUSH &amp; CO. LLC", "address": "75 FEDERAL STREET, 21ST FLOOR, BOSTON, MA 02110  "}  ,{ "name": "     DUNN SECURITIES, LLC", "address": "309 SE OSCEOLA ST. SUITE 350, STUART, FL     34994-2240  "}  ,{ "name": "     DUPREE &amp; COMPANY, INC.", "address": "125 SOUTH MILL STREET, LEXINGTON, KY     40507-1683", "mailing_address":" P. O. BOX 1149, LEXINGTON, KY 40588-1149  "}  ,{ "name": "DV EQUITIES", "address": "425 S. FINANCIAL PLACE, SUITE 2800, CHICAGO, IL 60605"}  ,{ "name": "     DV SECURITIES, LLC", "address": "425 S. FINANCIAL PLACE, SUITE 2800, CHICAGO, IL     60605  "}  ,{ "name": "     DWM FINANCE LLC", "address": "100 FIRST STAMFORD PLACE 4TH FLOOR SUITE 450, STAMFORD,     CT 06902  "}  ,{ "name": "     DWS DISTRIBUTORS, INC.", "address": "222 SOUTH RIVERSIDE PLAZA, CHICAGO, IL     60606-5808", "mailing_address":" 875 THIRD AVENUE, 27TH FLOOR- MAIL STOP     NYC03-2720, NEW YORK, NY 10022  "}  ,{ "name": "DYNAMEX TRADING, LLC", "address": "11 BROADWAY, SUITE 360, NEW YORK, NY 10004"}  ,{ "name": "     DYNAMIC CAPITAL INVESTMENTS, LLC", "address": "4050 E. COTTON CENTER BLVD., SUITE 40,     PHOENIX, AZ 85040  "}  ,{ "name": "     DYNASTY SECURITIES, LLC", "address": "200 CENTRAL AVENUE, FLOOR 15, SAINT PETERSBURG,     FL 33701", "mailing_address":" 200 CENTRAL AVENUE, FLOOR 15, SAINT     PETERSBURG, FL 33701  "}  ,{ "name": "     DZ FINANCIAL MARKETS LLC", "address": "ONE VANDERBILT, 49TH FLOOR, NEW YORK, NY 10017  "}]
+[
+  { "name": "D-MERC SERVICES", "address": "375 BALSAM ST, LAKEWOOD, CO 80226" },
+  {
+    "name": "     D. B. MCKENNA &amp; CO., INC.",
+    "address": "207 WEST MAIN STREET, BENNINGTON, VT     05201-2108  "
+  },
+  {
+    "name": "     D.A. DAVIDSON &amp; CO.",
+    "address": "8 THIRD STREET NORTH, GREAT FALLS, MT     59401-3104",
+    "mailing_address": " P.O. BOX 5015, GREAT FALLS, MT 59403-5015  "
+  },
+  {
+    "name": "     D.E. SHAW SECURITIES, L.L.C.",
+    "address": "1166 AVENUE OF THE AMERICAS, 9TH FLOOR,     NEW YORK, NY 10036  "
+  },
+  {
+    "name": "     D.H. HILL SECURITIES, LLLP",
+    "address": "1543 GREEN OAK PLACE, SUITE 100, KINGWOOD,     TX 77339  "
+  },
+  {
+    "name": "     D.M. KELLY &amp; COMPANY",
+    "address": "3900 INGERSOLL AVENUE, SUITE 300, DES MOINES,     IA 50312  "
+  },
+  {
+    "name": "     D/B/A PALAZZO",
+    "address": "145 WEST 57TH STREET, 17TH FLOOR, NEW YORK, NY 10019",
+    "mailing_address": "145 WEST 57TH STREET, 17TH FLOOR, NEW YORK, NY 10010  "
+  },
+  {
+    "name": "D12 CAPITAL MARKETS INC.",
+    "address": "5 REVERE PLACE, TORONTO, M8Z 2Z1 CANADA"
+  },
+  {
+    "name": "DABBAH SECURITIES CORP.",
+    "address": "167 EAST 63RD STREET, NEW YORK, NY 10065"
+  },
+  {
+    "name": "     DAI SECURITIES, LLC",
+    "address": "2800 CENTURY PARKWAY NE, SUITE 650, ATLANTA, GA     30345  "
+  },
+  {
+    "name": "     DAIWA CAPITAL MARKETS AMERICA INC.",
+    "address": "FINANCIAL SQUARE, 32 OLD SLIP, NEW     YORK, NY 10005-3538  "
+  },
+  {
+    "name": "DALMORE GROUP LLC",
+    "address": "525 GREEN PLACE, WOODMERE, NY 11598"
+  },
+  {
+    "name": "     DALZELL TRADING, LLC",
+    "address": "250 E. BEAVER AVE., SUITE 772, STATE COLLEGE, PA     16801  "
+  },
+  {
+    "name": "     DAM CAPITAL (USA) INC.",
+    "address": "42 BROADWAY, SUITE 12-129, NEW YORK, NY 10004  "
+  },
+  {
+    "name": "     DANSKE MARKETS INC.",
+    "address": "575 FIFTH AVENUE, 33RD FLOOR, NEW YORK, NY 10017  "
+  },
+  {
+    "name": "     DARWOOD ASSOCIATES INCORPORATED",
+    "address": "284 U.S. HIGHWAY 206, UNIT D3,     HILLSBOROUGH, NJ 08844  "
+  },
+  {
+    "name": "     DASH FINANCIAL TECHNOLOGIES LLC",
+    "address": "200 S.WACKER DRIVE, SUITE 2450,     CHICAGO, IL 60606  "
+  },
+  {
+    "name": "     DASH PRIME LLC",
+    "address": "200 SOUTH WACKER DRIVE, SUITE 2450, CHICAGO, IL 60606  "
+  },
+  {
+    "name": "     DASTA FINANCIAL, LLC",
+    "address": "101 GREENWICH STREET, SECOND FLOOR, SUITE 402, NEW     YORK, NY 10006",
+    "mailing_address": " 101 GREENWICH, SECOND FLOOR, SUITE 402,     NEW YORK, NY 10006  "
+  },
+  {
+    "name": "     DAVENPORT &amp; COMPANY LLC",
+    "address": "ONE JAMES CENTER, 901 E. CARY STREET,     RICHMOND, VA 23219",
+    "mailing_address": " P.O. BOX 85678, RICHMOND, VA     23285-5678  "
+  },
+  {
+    "name": "     DAVID LERNER ASSOCIATES, INC.",
+    "address": "477 JERICHO TPKE, P.O.BOX 9006, SYOSSET,     NY 11791-9006  "
+  },
+  {
+    "name": "     DAVINCI CAPITAL MANAGEMENT, INC.",
+    "address": "801 CAMBRIDGE ST., CAMBRIDGE, MA     02141",
+    "mailing_address": " 801 CAMBRIDGE ST., CAMBRIDGE, MA 02141  "
+  },
+  {
+    "name": "     DAVIS DISTRIBUTORS, LLC",
+    "address": "3600 E. HEMISPHERE LOOP, TUCSON, AZ 85706",
+    "mailing_address": "2949 EAST ELVIRA ROAD, SUITE 101, TUCSON, AZ 85756  "
+  },
+  {
+    "name": "     DAVIS SECURITIES LLC",
+    "address": "31 WEST 34TH STREET, 8TH FLOOR, SUITE 8067, NEW     YORK, NY 10001  "
+  },
+  {
+    "name": "DAVY SECURITIES",
+    "address": "DAVY HOUSE, 49 DAWSON STREET, DUBLIN 2, D2 IRELAND"
+  },
+  {
+    "name": "     DAWSON JAMES SECURITIES, INC.",
+    "address": "101 NORTH FEDERAL HIGHWAY, SUITE 600,     BOCA RATON, FL 33432  "
+  },
+  {
+    "name": "     DBS VICKERS SECURITIES (USA) INC.",
+    "address": "777 THIRD AVE, SUITE 1701, NEW YORK,     NY 10017",
+    "mailing_address": " 777 THIRD AVENUE, SUITE 1701, NEW YORK, NY     10017  "
+  },
+  {
+    "name": "DC ADVISORY",
+    "address": "605 THIRD AVENUE, 11TH FLOOR, NEW YORK, NY 10158"
+  },
+  {
+    "name": "DCF, LLC",
+    "address": "629 MARKET STREET, SUITE 120, CHATTANOOGA, TN 37402"
+  },
+  {
+    "name": "     DCM BROKERS, LLC",
+    "address": "566 W. ADAMS, SUITE 300, CHICAGO, IL 60661",
+    "mailing_address": "555 W. JACKSON, SUITE 600, CHICAGO, IL 60661  "
+  },
+  {
+    "name": "     DCMB SECURITIES LLC",
+    "address": "1700 WEST LOOP SOUTH, SUITE 450, HOUSTON, TX 77027  "
+  },
+  {
+    "name": "     DEALER SOLUTIONS NORTH AMERICA LLC",
+    "address": "42 BROADWAY, SUITE 12-129, NEW YORK,     NY 10004  "
+  },
+  {
+    "name": "     DEALERWEB INC.",
+    "address": "185 HUDSON STREET, HARBORSIDE 5, SUITE 2200, JERSEY     CITY, NJ 07311  "
+  },
+  {
+    "name": "     DEALMAKER SECURITIES",
+    "address": "4000 EAGLE POINT CORPORATE DRIVE, SUITE 950,     BIRMINGHAM, AL 35242",
+    "mailing_address": " 4000 EAGLE POINT CORPORATE DRIVE,     SUITE 124, BIRMINGHAM, AL 35242  "
+  },
+  {
+    "name": "     DECHEQUE SECURITIES LLC",
+    "address": "353 W PIERPONT AVE, SALT LAKE CITY, UT 84101  "
+  },
+  {
+    "name": "     DECKER &amp; CO, LLC",
+    "address": "700 EL CAMINO REAL, SUITE 120, MENLO PARK, CA     94025  "
+  },
+  {
+    "name": "     DEER ISLE CAPITAL, LLC",
+    "address": "33 FLYING POINT ROAD, SUITE 131, SOUTHAMPTON, NY     11968  "
+  },
+  {
+    "name": "     DELAWARE DISTRIBUTORS, L.P.",
+    "address": "100 INDEPENDENCE, 610 MARKET STREET,     PHILADELPHIA, PA 19106-2354  "
+  },
+  {
+    "name": "     DELOITTE CORPORATE FINANCE LLC",
+    "address": "111 S. WACKER DRIVE, CHICAGO, IL     60606-4301  "
+  },
+  {
+    "name": "     DELPHOS MMJ L.P.",
+    "address": "1270 AVENUE OF THE AMERICAS, 7TH FLOOR, NEW YORK, NY     10020  "
+  },
+  {
+    "name": "     DELPHX SERVICES CORPORATION",
+    "address": "265 DAVIDSON AVENUE, SUITE 210, SOMERSET,     NJ 08873  "
+  },
+  {
+    "name": "     DEMATTEO RESEARCH LLC",
+    "address": "70 EAST 55TH STREET, 10TH FLOOR, NEW YORK, NY     10022  "
+  },
+  {
+    "name": "     DEMETER ADVISORY GROUP, LLC",
+    "address": "1508 BAY ROAD, #511, MIAMI BEACH, FL 33139  "
+  },
+  {
+    "name": "     DEMPSEY LORD SMITH, LLC",
+    "address": "901 N BROAD STREET, SUITE 400, ROME, GA 30161  "
+  },
+  {
+    "name": "     DENNING &amp; COMPANY LLC",
+    "address": "150 CALIFORNIA STREET, SUITE 650, SAN     FRANCISCO, CA 94111  "
+  },
+  {
+    "name": "     DESJARDINS SECURITIES INTERNATIONAL INC.",
+    "address": "1170 PEEL STREET, SUITE 300,     MONTREAL, QUEBEC, H3B 0A9 CANADA  "
+  },
+  {
+    "name": "     DESTRA CAPITAL INVESTMENTS LLC",
+    "address": "443 N. WILLSON AVE., BOZEMAN, MT 59715  "
+  },
+  {
+    "name": "     DEUTSCHE BANK SECURITIES INC.",
+    "address": "1 COLUMBUS CIRCLE, NEW YORK, NY 10019  "
+  },
+  {
+    "name": "     DEVELOPMENT CORPORATION FOR ISRAEL",
+    "address": "P.O. BOX 5263, NEW YORK, NY 10150  "
+  },
+  {
+    "name": "     DFA SECURITIES LLC",
+    "address": "6300 BEE CAVE ROAD, BUILDING ONE, AUSTIN, TX 78746  "
+  },
+  {
+    "name": "     DFPG INVESTMENTS, LLC",
+    "address": "9017 S RIVERSIDE DRIVE, SUITE 210, SANDY, UT     84070  "
+  },
+  {
+    "name": "     DIGITAL BROKERAGE SERVICES LLC",
+    "address": "499 WASHINGTON BLVD, JERSEY CITY, NJ     07310",
+    "mailing_address": " TWO DESTINY WAY, MAIL ZONE WG3D, WESTLAKE, TX     76262  "
+  },
+  {
+    "name": "     DIGITAL CAPITAL MARKETS LLC",
+    "address": "10211 FLEMING AVENUE, BETHESDA, MD 20814  "
+  },
+  {
+    "name": "     DIGITAL OFFERING LLC",
+    "address": "1461 GLENNEYRE STREET, SUITE D, LAGUNA BEACH, CA     92651  "
+  },
+  {
+    "name": "DINAN CAPITAL ADVISORS",
+    "address": "307 N GATEWAY BLVD, PHOENIX, AZ 85008-6589"
+  },
+  {
+    "name": "     DINOSAUR FINANCIAL GROUP, L.L.C",
+    "address": "33 WHITEHALL ST, 1102, NEW YORK, NY     10004  "
+  },
+  {
+    "name": "     DIRECT REALTY SECURITIES, INC.",
+    "address": "5743 CORSA AVENUE, SUITE 215, WESTLAKE     VILLAGE, CA 91362  "
+  },
+  {
+    "name": "     DIRECTED SERVICES LLC",
+    "address": "SUITE 200, 1475 DUNWOODY DRIVE, WEST CHESTER, PA     19380",
+    "mailing_address": " SUITE 1350, 699 WALNUT STREET, DES MOINES, IA     50309  "
+  },
+  {
+    "name": "     DIRECTTRADE SECURITIES, LLC",
+    "address": "7708 84TH AVENUE CT NW, GIG HARBOR, WA     98335  "
+  },
+  {
+    "name": "     DISRUPTIVE SECURITIES",
+    "address": "11150 SANTA MONICA BLVD., SUITE 1680, LOS     ANGELES, CA 90025  "
+  },
+  {
+    "name": "DIVERSIFIED RESOURCES, LLC",
+    "address": "70 JEFFERSON BLVD., WARWICK, RI 02888"
+  },
+  {
+    "name": "     DIVERSIFIED SECURITIES, INCORPORATED",
+    "address": "610 PACIFIC COAST HWY-100, SEAL     BEACH, CA 90740  "
+  },
+  {
+    "name": "     DLCC PRIME",
+    "address": "111 TOWN SQUARE PLACE, SUITE 1203, JERSEY CITY, NJ 07310  "
+  },
+  {
+    "name": "     DMG SECURITIES, INC.",
+    "address": "746 WALKER ROAD, SUITE 10, GREAT FALLS, VA     22066-2643  "
+  },
+  {
+    "name": "     DMK ADVISOR GROUP, INC.",
+    "address": "17961 HUNTING BOW CIRCLE, SUITE 102, LUTZ, FL     33558  "
+  },
+  {
+    "name": "     DNB MARKETS, INC.",
+    "address": "30 HUDSON YARDS, 81ST FLOOR, 500 WEST 33RD STREET,     NEW YORK, NY 10001  "
+  },
+  {
+    "name": "     DOEREN MAYHEW CAPITAL ADVISORS, LLC",
+    "address": "2600 NORTH LOOP WEST, SUITE 600,     HOUSTON, TX 77092  "
+  },
+  {
+    "name": "     DOFT &amp; CO., INC.",
+    "address": "55 EAST 59TH STREET, 12TH FLOOR, NEW YORK, NY     10022  "
+  },
+  {
+    "name": "     DOMINARI SECURITIES LLC",
+    "address": "725 FIFTH AVENUE, 23RD FL., NEW YORK, NY 10022  "
+  },
+  {
+    "name": "     DOMINION INVESTOR SERVICES, INC.",
+    "address": "1002 MARBLE HEIGHTS DRIVE, SUITE 101,     MARBLE FALLS, TX 78654  "
+  },
+  {
+    "name": "     DOMINION PARTNERS, L.C.",
+    "address": "4801COX ROAD, STE 104, GLEN ALLEN, VA 23060  "
+  },
+  {
+    "name": "     DONALD CAPITAL LLC",
+    "address": "420 LEXINGTON AVE, 14TH FLOOR, SUITE # 1402, NEW     YORK, NY 10170  "
+  },
+  {
+    "name": "     DONNELLY PENMAN &amp; PARTNERS",
+    "address": "20902 MACK AVENUE, SUITE 200, GROSSE     POINTE WOODS, MI 48236  "
+  },
+  {
+    "name": "     DORN &amp; CO., INC.",
+    "address": "216 EAST WASHINGTON AVENUE, FERGUS FALLS, MN     56537-2812  "
+  },
+  {
+    "name": "     DORSET PEAK SECURITIES LLC",
+    "address": "416 WEST 13TH STREET, NEW YORK, NY 10014  "
+  },
+  {
+    "name": "     DOUGALL &amp; ASSOCIATES INC.",
+    "address": "445 EAST NORTH WATER STREET, APT 2203,     CHICAGO, IL 60611  "
+  },
+  {
+    "name": "     DOUGLAS SCOTT SECURITIES, INC.",
+    "address": "1700 ALMA DR, SUITE 110A, PLANO, TX     75075  "
+  },
+  {
+    "name": "     DOWLING &amp; PARTNERS SECURITIES LLC",
+    "address": "190 FARMINGTON AVENUE,     FARMINGTON, CT 06032  "
+  },
+  {
+    "name": "     DRAGONFLY CAPITAL PARTNERS, LLC",
+    "address": "694 PAWLEY RD, SUITE 101, MT PLEASANT,     SC 29464",
+    "mailing_address": " 694 PAWLEY RD, SUITE 101, MT PLEASANT, SC     29464  "
+  },
+  {
+    "name": "     DRAKE STAR SECURITIES LLC",
+    "address": "950 THIRD AVENUE, 20TH FLOOR, NEW YORK, NY     10022  "
+  },
+  {
+    "name": "     DRESNER INVESTMENT SERVICES, INC.",
+    "address": "10 S. LASALLE SUITE 2170, CHICAGO, IL     60603  "
+  },
+  {
+    "name": "     DREXEL HAMILTON, LLC",
+    "address": "110 EAST 42ND STREET, SUITE 1502, NEW YORK, NY     10017  "
+  },
+  {
+    "name": "DRIVELOYALTY LLC",
+    "address": "28 LIBERTY STREET, 50TH FLOOR, NEW YORK, NY 10005"
+  },
+  {
+    "name": "     DRIVEWEALTH INSTITUTIONAL LLC",
+    "address": "11 WALL STREET, NEW YORK, NY 10005",
+    "mailing_address": "28 LIBERTY STREET, 50TH FLOOR, NEW YORK, NY 10005  "
+  },
+  {
+    "name": "DRIVEWEALTH, LLC",
+    "address": "28 LIBERTY STREET, 50TH FLOOR, NEW YORK, NY 10005"
+  },
+  {
+    "name": "     DRUM CAPITAL CORP",
+    "address": "4139 VIA MARINA STE 801, MARINA DEL REY, CA 90292  "
+  },
+  {
+    "name": "     DRW EXECUTION SERVICES, LLC",
+    "address": "540 W. MADISON ST., SUITE 2500, CHICAGO, IL     60661  "
+  },
+  {
+    "name": "     DRW SECURITIES, L.L.C.",
+    "address": "540 WEST MADISON STREET, SUITE 2500, CHICAGO, IL     60661  "
+  },
+  {
+    "name": "     DSIL INVESTMENT SERVICES LLC",
+    "address": "180 MAIDEN LANE, SUITE 1302, NEW YORK, NY     10038-4925  "
+  },
+  {
+    "name": "     DSP SECURITIES, LLC",
+    "address": "161 WASHINGTON STREET, SUITE 580, CONSHOHOCKEN, PA     19428  "
+  },
+  {
+    "name": "     DUCERA SECURITIES LLC",
+    "address": "11 TIMES SQUARE, FLOOR 36, NEW YORK, NY 10036  "
+  },
+  {
+    "name": "     DUNHAM &amp; ASSOCIATES INVESTMENT COUNSEL, INC.",
+    "address": "6256 GREENWICH DRIVE,     SUITE 550, SAN DIEGO, CA 92122",
+    "mailing_address": " P.O. BOX 910309, SAN     DIEGO, CA 92191  "
+  },
+  {
+    "name": "     DUNN RUSH &amp; CO. LLC",
+    "address": "75 FEDERAL STREET, 21ST FLOOR, BOSTON, MA 02110  "
+  },
+  {
+    "name": "     DUNN SECURITIES, LLC",
+    "address": "309 SE OSCEOLA ST. SUITE 350, STUART, FL     34994-2240  "
+  },
+  {
+    "name": "     DUPREE &amp; COMPANY, INC.",
+    "address": "125 SOUTH MILL STREET, LEXINGTON, KY     40507-1683",
+    "mailing_address": " P. O. BOX 1149, LEXINGTON, KY 40588-1149  "
+  },
+  {
+    "name": "DV EQUITIES",
+    "address": "425 S. FINANCIAL PLACE, SUITE 2800, CHICAGO, IL 60605"
+  },
+  {
+    "name": "     DV SECURITIES, LLC",
+    "address": "425 S. FINANCIAL PLACE, SUITE 2800, CHICAGO, IL     60605  "
+  },
+  {
+    "name": "     DWM FINANCE LLC",
+    "address": "100 FIRST STAMFORD PLACE 4TH FLOOR SUITE 450, STAMFORD,     CT 06902  "
+  },
+  {
+    "name": "     DWS DISTRIBUTORS, INC.",
+    "address": "222 SOUTH RIVERSIDE PLAZA, CHICAGO, IL     60606-5808",
+    "mailing_address": " 875 THIRD AVENUE, 27TH FLOOR- MAIL STOP     NYC03-2720, NEW YORK, NY 10022  "
+  },
+  {
+    "name": "DYNAMEX TRADING, LLC",
+    "address": "11 BROADWAY, SUITE 360, NEW YORK, NY 10004"
+  },
+  {
+    "name": "     DYNAMIC CAPITAL INVESTMENTS, LLC",
+    "address": "4050 E. COTTON CENTER BLVD., SUITE 40,     PHOENIX, AZ 85040  "
+  },
+  {
+    "name": "     DYNASTY SECURITIES, LLC",
+    "address": "200 CENTRAL AVENUE, FLOOR 15, SAINT PETERSBURG,     FL 33701",
+    "mailing_address": " 200 CENTRAL AVENUE, FLOOR 15, SAINT     PETERSBURG, FL 33701  "
+  },
+  {
+    "name": "     DZ FINANCIAL MARKETS LLC",
+    "address": "ONE VANDERBILT, 49TH FLOOR, NEW YORK, NY 10017  "
+  }
+]
