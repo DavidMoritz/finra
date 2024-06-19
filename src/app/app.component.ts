@@ -1,5 +1,6 @@
 import { Component, ViewChild, inject, signal } from '@angular/core';
 import {
+  GoogleMap,
   GoogleMapsModule,
   MapAdvancedMarker,
   MapInfoWindow,
@@ -11,6 +12,7 @@ import { type Client, ClientsService } from './clients.service';
 import { Executive } from './executive/executive.model';
 import { BioComponent } from './executive/bio/bio.component';
 import { FormsModule } from '@angular/forms';
+import { MapService } from './map.service';
 
 @Component({
   selector: 'app-root',
@@ -26,18 +28,15 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  query = signal('');
-  selectedExec = signal<Executive | undefined>(undefined);
-  title = 'angular-google-maps';
-  options: google.maps.MapOptions = {
-    mapId: '75f09f1ac2062b2',
-    center: { lat: 42, lng: -98 },
-    zoom: 4,
-  };
-
   private clientsService = inject(ClientsService);
   private router = inject(Router);
+  private mapService = inject(MapService);
 
+  query = signal('');
+  map = signal({});
+  selectedExec = signal<Executive | undefined>(undefined);
+  title = 'angular-google-maps';
+  options: google.maps.MapOptions = this.mapService.getMapProperties();
   locations: Client[] = this.clientsService.getAllClients(this.query());
   executives = executiveList;
 
@@ -59,6 +58,10 @@ export class AppComponent {
     setTimeout(() => {
       this.selectedExec.set(execSet);
     }, millis);
+  }
+
+  onMapMove() {
+    this.mapService.saveMapProperties(this.googleMap);
   }
 
   reset() {
@@ -88,4 +91,5 @@ export class AppComponent {
   }
 
   @ViewChild(MapInfoWindow) infoWindow!: MapInfoWindow;
+  @ViewChild(GoogleMap) googleMap!: GoogleMap;
 }

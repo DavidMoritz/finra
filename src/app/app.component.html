@@ -6,7 +6,12 @@
   </header>
   <main id="content" class="main-content">
     <div id="gmp-map">
-      <google-map height="100%" width="100%" [options]="options">
+      <google-map
+        height="100%"
+        width="100%"
+        [options]="options"
+        (mapMouseout)="onMapMove()"
+      >
         @for (location of locations; track location.id) {
         <map-advanced-marker
           #markerElem="mapAdvancedMarker"
@@ -22,8 +27,8 @@
   </main>
 
   <aside class="sidebar">
-    <h3 class="find-me">Executives</h3>
-    <div class="scroll-list js-all-maps">
+    <h3>Executives</h3>
+    <div class="scroll-list">
       <ul>
         @for(exec of executives; track exec.id) {
         <li>
@@ -40,7 +45,7 @@
       <button class="btn btn-sm btn-info" (click)="reset()">reset</button>
     </div>
     <h4>Biography</h4>
-    <div class="js-event-abstract">
+    <div class="event-abstract">
       <app-bio [executive]="selectedExec()" (unassign)="deselectExec()" />
     </div>
   </aside>

@@ -4,7 +4,7 @@
   height: 100%;
 }
 
-.js-event-abstract,
+.event-abstract,
 .scroll-list {
   height: 27vh;
   overflow: scroll;
@@ -15,7 +15,7 @@
   border: solid 4px cornsilk;
   border-radius: 10px;
 }
-.js-event-abstract {
+.event-abstract {
   padding: 15px;
   font-size: 16px;
 }
