@@ -1,6 +1,8 @@
 .bio-pic {
   height: 215px;
   width: 150px;
+  box-shadow: 5px 5px 5px #cccccc;
+  border: 1px solid #666666;
 }
 
 article {
