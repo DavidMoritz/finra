@@ -1,0 +1,4 @@
+<button [class.active]="selected()" (click)="onSelectExecutive()">
+  <img [src]="avatarPath()" [alt]="executive().name" />
+  <span>{{ executive().name }}</span>
+</button>
