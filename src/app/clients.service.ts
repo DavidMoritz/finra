@@ -12,12 +12,16 @@ export interface Client {
   long: number;
   color: string;
   content: any;
+  execName: string;
 }
 
 function getColorFromExecutive(execId: string) {
   const exec = executiveList.find((exec) => exec.id === execId);
 
-  return exec?.color || 'orange';
+  return {
+    color: exec?.color || 'orange',
+    execName: exec?.name || 'Unassigned',
+  };
 }
 
 @Injectable({
@@ -35,13 +39,14 @@ export class ClientsService {
     } else {
       clientListData.forEach((client) => {
         const rand = random1toN(70);
-        const color = getColorFromExecutive(`e${rand}`);
+        const { color, execName } = getColorFromExecutive(`e${rand}`);
         this.clients.push({
           ...client,
           execId: `e${rand}`,
           lat: Number(client.lat),
           long: Number(client.long),
           color,
+          execName,
           content: parser.parseFromString(tacByColor(color), 'image/svg+xml')
             .documentElement,
         });
@@ -49,15 +54,31 @@ export class ClientsService {
     }
   }
 
-  getExecutiveClients(execId: string) {
-    return this.clients.filter((client) => client.execId === execId);
-  }
-  getNonExecutiveClients() {
-    const execIds = executiveList.map((exec) => exec.id);
+  getExecutiveClients(execId: string, q: string) {
+    const execClients = this.clients.filter(
+      (client) => client.execId === execId
+    );
 
-    return this.clients.filter((client) => !execIds.includes(client.execId));
+    return this.filterQuery(execClients, q);
   }
-  getAllClients() {
-    return this.clients;
+  getNonExecutiveClients(q: string) {
+    const execIds = executiveList.map((exec) => exec.id);
+    const nonExecClients = this.clients.filter(
+      (client) => !execIds.includes(client.execId)
+    );
+
+    return this.filterQuery(nonExecClients, q);
+  }
+  getAllClients(q: string) {
+    return this.filterQuery(this.clients, q);
+  }
+  filterQuery(list: Client[], q: string) {
+    if (!q) return list;
+
+    function condense(str: string) {
+      return str.toLowerCase().replace(/[^a-zA-Z]/g, '');
+    }
+
+    return list.filter((client) => condense(client.name).includes(condense(q)));
   }
 }

@@ -16,7 +16,7 @@ export class ExecutiveComponent {
   private clientsService = inject(ClientsService);
 
   get clients() {
-    return this.clientsService.getExecutiveClients(this.executive().id);
+    return this.clientsService.getExecutiveClients(this.executive().id, '');
   }
 
   bgColor = computed(() => {

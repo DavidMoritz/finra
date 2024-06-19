@@ -4,8 +4,6 @@
       <h2 class="site-title">Finra's Broker-Dealer Regulated Firms Map</h2>
     </div>
   </header>
-  <!-- .masthead -->
-
   <main id="content" class="main-content">
     <div id="gmp-map">
       <google-map height="100%" width="100%" [options]="options">
@@ -38,16 +36,33 @@
         }
       </ul>
     </div>
+    <div class="float-end">
+      @if(selectedExec) {
+      <button class="btn btn-sm btn-info" (click)="reset()">reset</button>
+      }
+    </div>
     <h4>Biography</h4>
     <div class="js-event-abstract">
       @if (selectedExec) {
       <app-bio [executive]="selectedExec" />
       } @else {
       <p id="fallback">Select an executive to see their bio</p>
+      <p>
+        To see only firms without a designated executive:
+        <button class="btn btn-sm btn-info" (click)="deselectExec()">
+          Unclaimed
+        </button>
+      </p>
       }
     </div>
   </aside>
-  <aside class="twin"></aside>
+  <aside class="twin">
+    <form (ngSubmit)="onSubmitQuery()">
+      Filter results:
+      <input name="query" [(ngModel)]="query" />
+      <button type="submit" class="d-none">Submit</button>
+    </form>
+  </aside>
 
   <footer class="colophon grid">
     <aside>
@@ -56,46 +71,5 @@
         >David Moritz</a
       >.
     </aside>
-    <script
-      src="https://code.jquery.com/jquery-3.7.0.min.js"
-      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./data.js?time=123490"></script>
-    <script src="./clients.js?time=123490"></script>
-    <script src="./app.js?time=1234903"></script>
   </footer>
-</div>
-<div
-  class="modal modal-lg fade"
-  id="exampleModal"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel"
-  aria-hidden="true"
->
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Contact your clients!</h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="modal-body">
-        <p>Here are the clients you currently have selected:</p>
-        <ul id="clients-selected"></ul>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-          Close
-        </button>
-        <button type="button" class="btn btn-success" data-bs-dismiss="modal">
-          Send Message!
-        </button>
-      </div>
-    </div>
-  </div>
 </div>
