@@ -1,0 +1,18 @@
+.bio-pic {
+  height: 215px;
+  width: 150px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+}
+
+article div {
+  width: 100%;
+  margin-left: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

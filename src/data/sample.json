@@ -1,0 +1,23 @@
+[
+  {
+    "id": "c1",
+    "name": "&amp;PARTNERS",
+    "address": "40 BURTON HILLS BLVD., SUITE 350, NASHVILLE, TN 37215",
+    "lat": "36.0961171",
+    "long": "-86.8234737"
+  },
+  {
+    "id": "c2",
+    "name": "1031 SECURITIES INC.",
+    "address": "25300 WEST 13 MILE RD, FRANKLIN, MI 48025",
+    "lat": "42.515767",
+    "long": "-83.2944683"
+  },
+  {
+    "id": "c3",
+    "name": "16 POINTS LLC",
+    "address": "10101 COND ROYAL PALM, VEGA ALTA, PR 00692",
+    "lat": "18.4725493",
+    "long": "-66.33114859999999"
+  }
+]

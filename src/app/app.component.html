@@ -1,15 +1,7 @@
 <div class="site">
   <header class="masthead">
     <div class="masthead-inner">
-      <h2 class="site-title">Client Map</h2>
-      <button
-        class="btn btn-info"
-        id="contact-button"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-      >
-        Contact (0)
-      </button>
+      <h2 class="site-title">Finra's Broker-Dealer Regulated Firms Map</h2>
     </div>
   </header>
   <!-- .masthead -->
@@ -37,15 +29,25 @@
       <ul>
         @for(exec of executives; track exec.id) {
         <li>
-          <app-executive [executive]="exec" [selected]="false" />
+          <app-executive
+            [executive]="exec"
+            [selected]="selectedExec?.id === exec.id"
+            (select)="onSelectExec($event)"
+          />
         </li>
         }
       </ul>
     </div>
-    <h4>Event Information</h4>
-    <pre class="js-event-abstract"></pre>
+    <h4>Biography</h4>
+    <div class="js-event-abstract">
+      @if (selectedExec) {
+      <app-bio [executive]="selectedExec" />
+      } @else {
+      <p id="fallback">Select an executive to see their bio</p>
+      }
+    </div>
   </aside>
-  <aside class="twin">Choose a weather event</aside>
+  <aside class="twin"></aside>
 
   <footer class="colophon grid">
     <aside>

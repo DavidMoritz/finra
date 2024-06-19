@@ -1,4 +1,9 @@
 <button [class.active]="selected()" (click)="onSelectExecutive()">
   <img [src]="avatarPath()" [alt]="executive().name" />
-  <span>{{ executive().name }}</span>
+  <span
+    >{{ executive().name }} -
+    <span class="badge badge-secondary" [style]="bgColor()"
+      >{{ clients.length }} Firms</span
+    ></span
+  >
 </button>
