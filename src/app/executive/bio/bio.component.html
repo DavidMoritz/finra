@@ -1,9 +1,19 @@
+@if (executive()) {
 <article>
-  <img class="bio-pic" [src]="avatarPath()" [alt]="executive().name" />
+  <img class="bio-pic" [src]="avatarPath()" [alt]="executive()?.name" />
   <div>
-    <h5>{{ executive().name }}</h5>
+    <h5>{{ executive()?.name }}</h5>
     <p>
       <span class="badge badge-secondary" [style]="bgColor()">Firms</span>
     </p>
   </div>
 </article>
+} @else {
+<p id="fallback">Select an executive to see their bio</p>
+<p>
+  To see only firms without a designated executive:
+  <button class="btn btn-sm btn-info" (click)="deselectExec()">
+    Unassigned
+  </button>
+</p>
+}

@@ -37,23 +37,11 @@
       </ul>
     </div>
     <div class="float-end">
-      @if(selectedExec) {
       <button class="btn btn-sm btn-info" (click)="reset()">reset</button>
-      }
     </div>
     <h4>Biography</h4>
     <div class="js-event-abstract">
-      @if (selectedExec) {
-      <app-bio [executive]="selectedExec" />
-      } @else {
-      <p id="fallback">Select an executive to see their bio</p>
-      <p>
-        To see only firms without a designated executive:
-        <button class="btn btn-sm btn-info" (click)="deselectExec()">
-          Unclaimed
-        </button>
-      </p>
-      }
+      <app-bio [executive]="selectedExec" (unassign)="deselectExec()" />
     </div>
   </aside>
   <aside class="twin">
@@ -71,7 +59,7 @@
         >David Moritz</a
       >. Source data:
       <a
-        href="https://www.finra.org/about/firms-we-regulate"
+        href="https://www.finra.org/about/firms-we-regulate/broker-dealer-firms-we-regulate"
         target="_blank"
         rel="nofollow"
         >Firms Finra Regulates</a

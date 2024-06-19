@@ -1,4 +1,4 @@
-import { Component, computed, input } from '@angular/core';
+import { Component, computed, input, output } from '@angular/core';
 import { Executive } from '../executive.model';
 
 @Component({
@@ -9,11 +9,15 @@ import { Executive } from '../executive.model';
   styleUrl: './bio.component.css',
 })
 export class BioComponent {
-  executive = input.required<Executive>();
+  executive = input<Executive>();
+  unassign = output<void>();
   bgColor = computed(() => {
-    return `background-color: ${this.executive().color}`;
+    return `background-color: ${this.executive()?.color}`;
   });
   avatarPath = computed(() => {
-    return `assets/execs/${this.executive().img}`;
+    return `assets/execs/${this.executive()?.img}`;
   });
+  deselectExec() {
+    this.unassign.emit();
+  }
 }
