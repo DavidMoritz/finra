@@ -4,7 +4,7 @@ import {
   MapAdvancedMarker,
   MapInfoWindow,
 } from '@angular/google-maps';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { ExecutiveComponent } from './executive/executive.component';
 import executiveList from '../data/executives.json';
 import { type Client, ClientsService } from './clients.service';
@@ -27,7 +27,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class AppComponent {
   query = signal('');
-  selectedExec?: Executive;
+  selectedExec = signal<Executive | undefined>(undefined);
   title = 'angular-google-maps';
   options: google.maps.MapOptions = {
     mapId: '75f09f1ac2062b2',
@@ -36,6 +36,7 @@ export class AppComponent {
   };
 
   private clientsService = inject(ClientsService);
+  private router = inject(Router);
 
   locations: Client[] = this.clientsService.getAllClients(this.query());
   executives = executiveList;
@@ -54,28 +55,33 @@ export class AppComponent {
     );
   }
 
+  delayExecSet(execSet: Executive | undefined = undefined, millis = 250) {
+    setTimeout(() => {
+      this.selectedExec.set(execSet);
+    }, millis);
+  }
+
   reset() {
-    this.selectedExec = undefined;
-    this.query.set('');
-    this.locations = this.clientsService.getAllClients('');
+    window.location.reload();
   }
 
   deselectExec() {
-    this.selectedExec = undefined;
+    this.delayExecSet();
     this.locations = this.clientsService.getNonExecutiveClients(this.query());
   }
 
-  onSelectExec(exec: Executive) {
-    this.selectedExec = exec;
+  onSelectExec(exec?: Executive) {
+    if (exec) this.delayExecSet(exec);
+
     this.locations = this.clientsService.getExecutiveClients(
-      exec.id,
+      exec?.id || this.selectedExec()!.id,
       this.query()
     );
   }
 
   onSubmitQuery() {
-    if (this.selectedExec) {
-      this.onSelectExec(this.selectedExec);
+    if (this.selectedExec()) {
+      this.onSelectExec();
     } else {
       this.locations = this.clientsService.getAllClients(this.query());
     }

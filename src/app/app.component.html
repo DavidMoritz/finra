@@ -29,7 +29,7 @@
         <li>
           <app-executive
             [executive]="exec"
-            [selected]="selectedExec?.id === exec.id"
+            [selected]="selectedExec()?.id === exec.id"
             (select)="onSelectExec($event)"
           />
         </li>
@@ -41,7 +41,7 @@
     </div>
     <h4>Biography</h4>
     <div class="js-event-abstract">
-      <app-bio [executive]="selectedExec" (unassign)="deselectExec()" />
+      <app-bio [executive]="selectedExec()" (unassign)="deselectExec()" />
     </div>
   </aside>
   <aside class="twin">
