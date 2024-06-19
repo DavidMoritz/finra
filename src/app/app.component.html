@@ -17,20 +17,12 @@
   <main id="content" class="main-content">
     <div id="gmp-map">
       <google-map height="100%" width="100%" [options]="options">
-        @for (location of nzLocations; track location; let index = $index) {
+        @for (location of locations; track location.id) {
         <map-advanced-marker
           #markerElem="mapAdvancedMarker"
-          [position]="{ lat: location.lat, lng: location.lng }"
+          [position]="{ lat: location.lat, lng: location.long }"
           [content]="location.content"
-          [title]="'Location ' + (index + 1)"
-          (mapClick)="onMarkerClick(markerElem)"
-        />
-        } @for (location of auLocations; track location; let index = $index) {
-        <map-advanced-marker
-          #markerElem="mapAdvancedMarker"
-          [position]="{ lat: location.lat, lng: location.lng }"
-          [content]="location.content"
-          [title]="'Location ' + (index + 1)"
+          [title]="location.name"
           (mapClick)="onMarkerClick(markerElem)"
         />
         }

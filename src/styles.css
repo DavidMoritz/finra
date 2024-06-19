@@ -30,14 +30,11 @@
 }
 
 .scroll-list li::before {
-  content: "\2022";
   color: #404040;
   display: inline-block;
-  width: 3.4em;
   margin-left: -1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   margin-bottom: -1px;
-  padding-bottom: 5px;
   padding-top: 5px;
   margin-left: -40px;
   padding-left: 22px;

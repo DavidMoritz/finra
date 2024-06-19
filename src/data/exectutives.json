@@ -1,11 +1,6 @@
 [
   { "name": "Marcia Asquith", "id": "e1", "img": "thumb_Asquith_Marcia.png" },
   { "name": "Bob Colby", "id": "e2", "img": "thumb_Colby_Bob.png" },
-  {
-    "name": "Maureen Delaney",
-    "id": "e3",
-    "img": "thumb_Delaney_Maureen_150x225.png"
-  },
   { "name": "Todd Diganci", "id": "e4", "img": "thumb_Diganci_Todd.png" },
   { "name": "Denise Dombay", "id": "e5", "img": "thumb_Dombay_Denise.png" },
   {
